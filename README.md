@@ -23,12 +23,16 @@ Problem Statement: Many students and health-conscious individuals lack a simple,
 
 ## CORE LOGIC
 
-- Data Structure: A Python list of dictionaries is used to store the structured data for the session.
-  Each dictionary represents a single meal and contains its name, a timestamp, and its calculated total calories.
-- Calculation Logic:
-      - The total calories for a single meal are calculated within the get_meal_calories() function.
-      - The grand total for the day is calculated using a generator expression and the sum() function: sum(meal['calories'] for meal in daily_log).
-      - The average is a simple division: grand_total / total_meals.
+### Data Structure
+A Python **list of dictionaries** is used to store the structured data for the session.  
+Each dictionary represents a single meal and contains its name, a timestamp, and its calculated total calories.
+
+### Calculation Logic
+
+- The total calories for a single meal are calculated within the `get_meal_calories()` function.
+- The grand total for the day is calculated using a generator expression and the `sum()` function:
+  ```python
+  sum(meal['calories'] for meal in daily_log)
 
 ## ⚙️ How It Works
 
