@@ -4,6 +4,13 @@ A simple **Python-based calorie tracking program** that allows users to log thei
 
 ---
 
+## THE PROBLEM 
+Project Goal: The objective is to build a basic Command-Line Interface (CLI) tool using Python that allows a user to quickly log their meals and view a summary of their total and average calorie consumption for the session. 
+
+Problem Statement: Many students and health-conscious individuals lack a simple, fast, and accessible tool to monitor their daily calorie intake
+
+---
+
 ## 📜 Features
 
 - Log multiple meals in a day.  
@@ -13,6 +20,15 @@ A simple **Python-based calorie tracking program** that allows users to log thei
 - Input validation to ensure only valid numbers are entered for counts and calories.
 
 ---
+
+## CORE LOGIC
+
+- Data Structure: A Python list of dictionaries is used to store the structured data for the session.
+  Each dictionary represents a single meal and contains its name, a timestamp, and its calculated total calories.
+- Calculation Logic:
+      - The total calories for a single meal are calculated within the get_meal_calories() function.
+      - The grand total for the day is calculated using a generator expression and the sum() function: sum(meal['calories'] for meal in daily_log).
+      - The average is a simple division: grand_total / total_meals.
 
 ## ⚙️ How It Works
 
