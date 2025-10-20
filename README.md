@@ -32,7 +32,16 @@ A simple **Python-based calorie tracking program** that allows users to log thei
 
 ## 💻 Example Output
 
+#1
+
 <img width="706" height="829" alt="image" src="https://github.com/user-attachments/assets/c150ead3-3f85-4bbc-83e1-394fc9373680" />
+
+#2
+<img width="1450" height="2406" alt="2ndoutput" src="https://github.com/user-attachments/assets/adaf1677-e89f-4eec-8afa-f8f862bb25e4" />
+
+
+#3
+<img width="1450" height="2790" alt="output 333" src="https://github.com/user-attachments/assets/5fc265ba-1709-4781-88c8-71ca38809ca1" />
 
 
 
