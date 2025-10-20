@@ -32,6 +32,21 @@ A simple **Python-based calorie tracking program** that allows users to log thei
 
 ## 💻 Example Output
 
+<img width="706" height="829" alt="image" src="https://github.com/user-attachments/assets/c150ead3-3f85-4bbc-83e1-394fc9373680" />
+
+
+
+#🪄 Future Improvements
+
+-Save daily logs to a file (CSV)
+
+-Add calorie goals and progress tracking.
+
+-Option to delete or edit meals.
+
+-GUI version using Tkinter or PyQt.
+
+
 
 
 
